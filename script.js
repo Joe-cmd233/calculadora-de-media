@@ -52,7 +52,6 @@ function creditos() {
 }
 
 function a() {
-	resultado.innerHTML =
-		"https://studio.code.org/projects/gamelab/pAK2nnxsRLUki3TZ-75nvNGxHrSCUBvMyrCOx4omlto ";
+	document.innerHTML = <iframe width="440" height="757" style="border: 0px;" src="https://studio.code.org/projects/gamelab/YwpEccugQVxHavMl-NTcyJmueDZWxtyr3DWou2sGPXs/embed?nosource"></iframe>;
 	console.log("?");
 }
