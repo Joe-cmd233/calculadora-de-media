@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculadora de Média prova bimestral</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+
+<head>
+
+</head>
+<center>
+	<h1><img class="icon" src="https://blogger.googleusercontent.com/img/a/AVvXsEjyHpKMtQEXZzyY2iU53C6_-zt59zX2GYyA2z9MLUToerAjfLauxC6ttzj0i2RiqMCid0ClWvPg8CW5vkh-FEW-LAG6p8zBDP5i68SNQv9mUd1Bf6Nie_TWgymdhKNKFdtcDuGa_3eEQxCXEg3KqSimxmE7H3yb8_52GpwkHtV_H0jlIDhwV0Uq8HPn=w165-h151" onclick=creditos()> Calculadora de Média</h1>
+	<button class="w" onclick=warning()>Atenção!</button>
+	<br>
+	<br>
+	<input type="text" placeholder="Nome do Aluno (Não Obrigatório)" id="no" class="caixa"> </input>
+	<div class="entrada">
+		<br>
+		<input type="number" placeholder="Nota AT1" id="n1" class="caixa"> </input>
+		<br>
+		<input type="number" placeholder="Nota da prova" id="n4" class="caixa">
+		<br>
+		<br>
+		<button onclick="calculate()" id="botao" class="montedecoisa"> Calcular </button>
+		<br>
+	</div>
+	<span>Nota:</span>
+	<br>
+	<textarea class="result" id="resultado"></textarea>
+	<div class="slide-checkbox">
+	</div>
+	<br>
+	Anotações
+	<br>
+	<textarea class="nota" placeholder="faça suas anotações aqui" width=100></textarea>
+
+</center>
+<button onclick='a()'>?</button>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

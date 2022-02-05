@@ -1,0 +1,42 @@
+body {
+	font-family: "Merriweather", monospace;
+	background-image: url('data:image/svg+xml,%3Csvg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z" fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"/%3E%3C/svg%3E');
+	background-color: #008a98;
+	background-repeat: repeat;
+}
+h1 {
+	font-family: "Merriweather";
+	color: #1a237e;
+	scale: 50px;
+	text-align: center;
+}
+.w {
+	border-radius: 100000px;
+	font-family: "Lato";
+	color: #f54242;
+	text-align: center;
+}
+.result {
+	border-radius: 5px;
+	font-family: "Lato";
+	color: #2b2e3c;
+	background-color: #008a98;
+	background-image: url('data:image/svg+xml,%3Csvg width="12" height="24" viewBox="0 0 12 24" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M2 0h2v12H2V0zm1 20c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zM9 8c1.105 0 2-.895 2-2s-.895-2-2-2-2 .895-2 2 .895 2 2 2zm-1 4h2v12H8V12z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+	text-align: center;
+}
+.icon {
+	position: left;
+	width: 40px;
+	cursor: pointer;
+}
+.nota {
+	border-radius: 5px;
+	background-image: url("https://blogger.googleusercontent.com/img/a/AVvXsEiI9nt_A1cchb4Yo82qTO7mIkzaw1wrWuA_bwpJWLA57DnWt0KSMJxm9Og4DBmCvwbTBRLkAgVC0xPzLm_g9VAEDgzlyU37DkpZzUqBZSS8Xt5DNjtnpX9_fIYcFAtFjRKqjPYS2G5GlPIdH1LJE0emjpDnNkAbz2YNfDjtnmOB8zZvuuQbL28eOu0z");
+	width: 500;
+	height: 500;
+	font-family: "Lato";
+}
+.? {
+	width: 500;
+	height: 500;
+}
